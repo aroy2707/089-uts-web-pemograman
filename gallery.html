@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Toko Online</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         body {
+    padding-top: 80px; 
+    background-image: url("/gallery/pngtree-background-biru-keren-dan-kosong-abstract-untuk-template-desain-ppt-image_759974.jpg");
+        }
+        .gallery-item {
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+        .background-jumbotron{
+        background-image: url("gallery/jumbotronimage.jpeg");
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0);
+       }
+
+       .whatsapp-chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .whatsapp-chat img {
+            width: 60px; /* Ukuran ikon WhatsApp */
+            height: 60px; /* Ukuran ikon WhatsApp */
+        }
+       
+    </style>
+</head>
+<body>
+
+     <!-- Navbar  -->
+     <section id="navbar" class="fixed-top">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="gallery/logozul.png" alt="Zulfikar Aroy.com" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="login.html">Login</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Produk</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="keunggulan.html">Keunggulan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Pendaftaran</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+      </section>
+
+      
+    <!-- Jombotron -->
+
+    <section id="jumbotron" class="jumbotron-fluid background-jumbotron">
+        <div class="container-fluid py-5 text-center">
+          <p class="p-4"></p>
+          <h1 class="display-3">Solusi Kebutuhan Anda</h1>
+          <p> Kami menyediakan berbagi produk untuk kebutuhan anda <br> Tidak hanya indah dan berkualitas, tetapi bermanmaat</p>
+          <button class="btn btn-primary btn-lg" type="button">Konsultasi</button>
+        </div>
+      </section><br>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Toko Online Kami</h1>
+        <p>Temukan produk terbaik untuk Anda!</p>
+    </header>
+
+    <!-- Gallery -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/produkgaleri.png" class="card-img-top" alt="Produk 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Vortex Series</h5>
+                        <p class="card-text">Gear gaming lokal pertama ada vortex, vortex merupakan gear gaming buatan asli dari Indonesia. Vortex ini biasanya lebih populer dengan keyboardnya karena selain desain yang cukup apik, Responsif keyboardnya pun diakui di seluruh dunia. Tak jarang apabila kamu ingin membeli vortex series sering kehabisan. Mechanical Keyboard yang dipunyai juga sangat laku dipasaran gamers di Indonesia.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/produkgaleri1.png" class="card-img-top" alt="Produk 2">
+                    <div class="card-body">
+                        <h5 class="card-title">NYK Nemesis</h5>
+                        <p class="card-text">Kamu ingin gear gaming lokal yang berkualitas namun harga tetap terjangkau? NYK Nemesis adalah pilihannya. Produk andalan dari NYK Nemesis ini adalah dari Keyboard, Mouse, Hingga Microphone. Pastinya kamu akan merasakan sensasi gaming yang kental akan nuansa lokal dan futuristik dengan NYK Nemesis yang satu ini.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/produkgaleri2.webp" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Alliance</h5>
+                        <p class="card-text">Digital Alliance adalah merek lokal yang harus masuk list karena selain mereka membuat aksesoris untuk gaming. Brand Gaming lokal ini juga membuat perangkat lunak untuk gaming yang bisa kamu beli. selain aksesoris gaming. Brand gaming ini bisa merambah ke arah lain demi mewujudkan bermain game yang memuaskan.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/produkg3.webp" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Rexus</h5>
+                        <p class="card-text">Rexus digadang-gadang sebagai merek lokal yang terbaik. Pastinya gear gaming lokal yang satu ini memiliki desain yang futuristik sehingga banyak kalangan dari Gen Z memilih rexus sebagai pilihan gear gaming lokal terbaik. Rexus ini dibangun pada tanggal 06 Maret 2002. </p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/produkg4.webp" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Armaggeddon</h5>
+                        <p class="card-text">
+                            Armaggeddon sendiri salah satunya merek gaming yang jual aksesori gaming pada harga yang dapat dijangkau untuk semuanya kelompok, Fantech menjadi gear gaming ketiga untuk urusan microphone dan headset. Karena kamu pastinya sangat membutuhkan alat komunikasi untuk gaming. </p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/produkg5.png" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fantech</h5>
+                        <p class="card-text">Fantech menjadi gear gaming ketiga untuk urusan microphone dan headset. Karena kamu pastinya sangat membutuhkan alat komunikasi untuk gaming. Nah fantech ini adalah solusinya. Selain headset dan microphone.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/Samsung_Galaxy_Flip5.jpg" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung_Galaxy_Flip5</h5>
+                        <p class="card-text">Layar: Foldable Dynamic AMOLED 2X 6,7 inci 1080 x 2640 piksel, 120Hz HDR10+
+
+                            Cover Display: Super AMOLED 3,4 inci 720 x 748 piksel, Corning Gorilla Glass Victus 2
+                            
+                            Chipset: Qualcomm Snapdragon 8 Gen 2 (4nm)
+                            
+                            Memori: 8GB+256GB; 8GB+512GB
+                            
+                            Kamera belakang: Dual 12MP f/1.8 OIS + 12MP f/2.2 123 derajat ultra-wide
+                            
+                            Kamera depan: 10MP f/2.2
+                            
+                            Baterai: 3.700 mAh fast charging 25W
+                            
+                            Fitur unggulan lain: IPX8, Bluetooth 5.3, Wi-Fi 6e, NFC </p>
+                            
+                            <p>HP lipat baru lainnya dari Samsung. Desainnya clamshell, jadi berbeda dari Fold5. Hal yang baru, layar di cover lebih besar ketimbang generasi sebelumnya. Makin keren!</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/Samsung_Galaxy_Z_Fold5.jpg" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung_Galaxy_Z_Fold5</h5>
+                        <p class="card-text">Layar: Foldable Dynamic AMOLED 2X 7,6 inci 1812 x 2716 piksel, 120Hz HDR10+
+
+                            Cover Display: Dynamic AMOLED 2X 6,2 inci 904 x 2316 piksel, 120Hz, Corning Gorilla Glass Victus 2
+
+                            Chipset: Qualcomm Snapdragon 8 Gen 2 (4nm)
+                            Memori: 12GB+256GB; 12GB+512GB; 12GB+1TB
+
+                            Kamera belakang: Triple 50MP f/1.8 OIS + 12MP f/2.2 123 derajat ultra-wide + 10MP f/2.4 telephoto OIS
+                            
+                            Kamera depan: 4MP f/1.8 – under display
+                            
+                            10MP f/2.2 – Cover camera
+                            
+                            Baterai: 4.400 mAh fast charging 25W
+                            
+                            Fitur unggulan lain: IPX8, Bluetooth 5.3, Wi-Fi 6e/7, NFC</p>
+                            <p>Ini merupakan HP lipat terbaru dan tercanggih Samsung. Harganya memang paling premium, tetapi HP “masa depan” yang kamu dapatkan.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/iphone1.jpg" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhohe 11</h5>
+                        <p class="card-text">iPhone 11 hadir dengan layar 6,1 inch liquid Retina Display, iPhone 11 Pro hadir dengan ukuran layar 5,8 inch dengan menggunakan Super Retina Display (OLED). Lalu pada bagian belakang iPhone 11 telah dipasang kamera ganda. Kamera pertama 12MP wide angle dengan aperture f/1.8, sedangkan kamera keduanya 12MP dengan aperture f/2.4. Selain itu, Apple juga telah melengkapinya dengan flash yang diklaim 36% lebih terang. Untuk kamera depan, iPhone 11 dibekali 12MP TrueDeepth camera. Apple menghadirkan fitur Slo-fies untuk pertamakalinya, yang memungkinkan anda untuk merekam video slow-motion video di kamera depan.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/redmi.png" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi note 10</h5>
+                        <p class="card-text">Ponsel redmi note 10 memang kerap menjadi perbincangan karena ponsel yang satu ini bukan hanya memiliki harga yang cukup terjangkau saja, melainkan juga spesifikasi yang mumpuni. Banyak pecinta gadget yang mengincar produk yang satu ini. Nah, apabila kamu juga salah satunya, jangan sampai melewatkan keunggulan redmi note 10 berikut ini ya!</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/oppo a9 2020 body.png" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Oppo A9 2020</h5>
+                        <p class="card-text">Bagi sebagian anak muda milenial ketika akan membeli sebuah smartphone maka biasanya mereka akan memperatikan beberapa hal. Beberapa diantaranya adalah kemampun smartphone tersebut dalam menjalankan game favorit mereka, kualitas kamera baik belakang maupun depan serta besar kecilnya kapasitas baterai.
+
+                            Dan tentunya para produsen ponsel pintar pun paham hal tersebut serta mengakomoidrnya dengang meluncurkan smartphone smartphone yang memenuhi kebutuhan para milenial tersebut. Salah satu diantaranya adalah apa yang dilakukan Oppo dengan produk terbarunya yakni Oppo A9 2020</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/laptopAdvan-TBOOK-x-Transformers_.webp" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Advan-TBOOK-x-Transformers</h5>
+                        <p class="card-text">Untuk mereka yang bilang laptop bagus sudah tentu mahal, pasti belum tahu ada Advan TBOOK X Transformers. Ini adalah edisi spesial di mana Advan melakukan kolaborasi dengan salah satu seri animasi terkeren sepanjang masa, yaitu Transformers.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/laptopAxioo-Pongo-750_.webp" class="card-img-top" alt="Produk 3" height="240px" >
+                    <div class="card-body">
+                        <h5 class="card-title">Axioo-Pongo-750_</h5>
+                        <p class="card-text"> Laptop gaming dengan desain keren, harga terjangkau, serta performa gegas? Tidak heran Axioo Pongo 750 banyak peminatnya. Bayangkan saja, dengan budget sekitar Rp13 jutaan, Anda bisa mendapatkan laptop dengan grafis NVIDIA RTX 4000 series yang nyaman buat segala game AAA! Bahkan termasuk Black Myth: Wukong.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/Axioo-Pongo-Monster-X_.webp" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Axioo Pongo 750</h5>
+                        <p class="card-text"> Salah satu laptop gaming dari sekumpulan laptop gaming terbaik? Axioo Pongo Monster X tentu salah satu pilihan paling memadai. Dari spesifikasinya saja kita bisa menilai: sudah menggunakan RTX 4090 yang merupakan VGA laptop varian tertinggi pada seri RTX 4000.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 gallery-item">
+                <div class="card">
+                    <img src="gallery/laptopZyrex-Ultra-N100_.webp" class="card-img-top" alt="Produk 3" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Zyrex-Ultra-N100</h5>
+                        <p class="card-text">
+                           Kehadiran Intel N100 pada tahun 2023 sungguh mengubah persepsi saya terhadap laptop murah. Hilang sudah anggapan laptop Rp3 jutaan bakal lagging setiap buka aplikasi atau browsing.</p>
+                        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+
+
+<footer class="bg-dark text-white mt-5">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="gallery/logozul.png" alt="Logo Toko Online" class="img-fluid mb-2" style="max-width: 80px;">
+                <p>zulfikar aroy -shop</p>
+             
+            </div>
+            <div class="col-md-4">
+                <h5>Informasi Kontak</h5>
+                <ul class="list-unstyled">
+                    <li><strong>Email:</strong> zulfikararoy@gmail.com</li>
+                    <li><strong>Telepon:</strong> (+62)89535-1401-642</li>
+                    <li><strong>Alamat:</strong> Jl. surabayan No. 127, Pekalongan, Indonesia</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 style="text-align: center;">Ikuti Kami di Media Sosial</h5>
+              <div class="social-icons" style="text-align: center;">
+                  <a href="https://www.facebook.com/profile.php?id=61566972385955" target="_blank" title="Facebook">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/mepitchblack.27/" target="_blank" title="Instagram">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://wa.me/0895351401642" target="_blank" title="WhatsApp">
+                      <i class="fab fa-whatsapp"></i>
+                  </a>
+              </div>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+     <!-- chat online -->
+
+     <a href="https://wa.me/0895351401642" class="whatsapp-chat" target="_blank">
+        <img src="gallery/iconwa-removebg-preview.png" alt="Chat with us on WhatsApp" />
+    </a>
+     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Link CSS Bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kontak Kami - Toko Online</title>
+    
+    <style>
+
+body {
+    padding-top: 80px; 
+    background-image: url("/gallery/pngtree-background-biru-keren-dan-kosong-abstract-untuk-template-desain-ppt-image_759974.jpg");
+        }
+
+        body {
+            background-color: #f8f9fa; /* Warna latar belakang */
+        }
+        .contact-container {
+            max-width: 800px; /* Lebar maksimum konten */
+            margin: 50px auto; /* Margin atas dan bawah, dan auto untuk pusat */
+            padding: 30px;
+            background-color: #fff; /* Warna latar belakang konten */
+            border-radius: 10px; /* Sudut melengkung */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Bayangan */
+        }
+        h2 {
+            margin-bottom: 20px; /* Margin bawah untuk judul */
+        }
+        .contact-info {
+            margin-bottom: 30px; /* Margin bawah untuk informasi kontak */
+        }
+        .social-icons {
+            margin-top: 20px; /* Margin atas untuk ikon media sosial */
+        }
+        .social-icons a {
+            color: lightskyblue; /* Warna teks */
+            margin: 0 10px; /* Margin horizontal untuk ikon */
+            font-size: 24px; /* Ukuran font untuk ikon */
+            transition: background-color 0.3s; /* Transisi untuk efek hover */
+        }
+        .social-icons a:hover {
+            opacity: 0.7; /* Efek hover */
+        }
+        .social-icon-facebook {
+            background-color: #ffffff; /* Warna latar belakang Facebook */
+            padding: 10px;
+            border-radius: 50%; /* Sudut melengkung untuk ikon */
+        }
+        .social-icon-twitter {
+            background-color: #ffffff; /* Warna latar belakang Twitter */
+            padding: 10px;
+            border-radius: 50%; /* Sudut melengkung untuk ikon */
+        }
+        .social-icon-instagram {
+            background-color: #ffffff; /* Warna latar belakang Instagram */
+            padding: 10px;
+            border-radius: 50%; /* Sudut melengkung untuk ikon */
+        }
+
+        .footer {
+            background-color: #468bd1;
+            padding: 20px 0;
+        }   
+
+        .whatsapp-chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .whatsapp-chat img {
+            width: 60px; /* Ukuran ikon WhatsApp */
+            height: 60px; /* Ukuran ikon WhatsApp */
+        }
+        .bg-blue {
+            color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar  -->
+    <section id="navbar" class="fixed-top">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="gallery/logozul.png" alt="Zulfikar Aroy.com" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="login.html">Login</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Produk</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="keunggulan.html">Keunggulan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Pendaftaran</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+      </section> 
+
+<div class="contact-container">
+    <h2 class="text-center">Kontak Kami</h2>
+    <div class="contact-info">
+        <h4>Informasi Kontak</h4>
+        <p><strong>Email:</strong> zulfikararoy@gmail.com</p>
+        <p><strong>Telepon:</strong> +628-9535-1401-642</p>
+        <p><strong>Alamat:</strong> jl. surabayan, Kedungwuni, Pekalongan, Indonesia</p>
+    </div>
+
+    <h4>Kirim Pesan</h4>
+    <form>
+        <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+    </form>
+
+    <div class="social-icons text-center">
+        <h4>Ikuti Kami di Media Sosial</h4>
+        <a href="https://www.facebook.com/profile.php?id=61566972385955" class="social-icon-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/0895351401642" class="social-icon-twitter" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/mepitchblack.27/" class="social-icon-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</div>
+
+ <!-- chat online -->
+
+ <a href="https://wa.me/0895351401642" class="whatsapp-chat" target="_blank">
+    <img src="gallery/iconwa-removebg-preview.png" alt="Chat with us on WhatsApp" />
+</a>
+ 
+
+
+<!-- Footer -->
+
+
+<footer class="bg-dark text-white mt-5">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="gallery/logozul.png" alt="Logo Toko Online" class="img-fluid mb-2" style="max-width: 80px;">
+                <p>zulfikar aroy -shop</p>
+             
+            </div>
+            <div class="col-md-4">
+                <h5>Informasi Kontak</h5>
+                <ul class="list-unstyled">
+                    <li><strong>Email:</strong> zulfikararoy@gmail.com</li>
+                    <li><strong>Telepon:</strong> (+62)89535-1401-642</li>
+                    <li><strong>Alamat:</strong> Jl. surabayan No. 127, Pekalongan, Indonesia</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 style="text-align: center;">Ikuti Kami di Media Sosial</h5>
+              <div class="social-icons" style="text-align: center;">
+                  <a href="https://www.facebook.com/profile.php?id=61566972385955" target="_blank" title="Facebook">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/mepitchblack.27/" target="_blank" title="Instagram">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://wa.me/0895351401642" target="_blank" title="WhatsApp">
+                      <i class="fab fa-whatsapp"></i>
+                  </a>
+              </div>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!-- Link JS Bootstrap dan jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
